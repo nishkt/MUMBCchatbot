@@ -94,7 +94,7 @@ A: All core modules are registered automatically and this covers the majority of
 Q: I am having problems with logging into enrolling via myUnihub
 A: For futher assitance, contact the student office at +2304036400.
 ===
-Q: Where can I live if I don’t want to stay in halls ?
+Q: Where can I live if I donÂ’t want to stay in halls ?
 A: There is accomadation available next to campus at the Student Life Residence . Otherwise , students will have to look for accomodation themselves . Most students find apartments in the Flic-en-flac , Vacoas , Quatre Bornes , and Candos areas .
 ===
 Q: I want to change my course , how do I do this ?
@@ -112,7 +112,7 @@ A: You will have to contact the student office and request to create a new one .
 Q: What do I need to bring for my first few days at University ?
 A: The only things that you need to bring for your first few days at the University are your documents for your ID check , notebooks , and stationary . 
 ===
-Q: What if I haven’t received my Induction Pack ?
+Q: What if I havenÂ’t received my Induction Pack ?
 A: International students are sent their Induction Pack by email . It may take up to a few days after you have accepted our offer for this to be sent to you . If you still do not receive this , please contact the student office at +2304036400 .
 ===
 Q: I donot understand some of the technical language at university
@@ -139,7 +139,7 @@ A: You will have to contact the IT office to help you with e-mail services .
 Q: How do I register with a doctor ?
 A: Please contact the Finance department regarding which doctors are available for your insurance . 
 ===
-Q: I’m expecting a delivery but am unsure who to address it to as my accommodation isn’t sorted yet .  
+Q: IÂ’m expecting a delivery but am unsure who to address it to as my accommodation isnÂ’t sorted yet .  
 A: It is highly recommended that you do not order any deliveries until you have an appropriate address or accommodation confirmed because there is a potential risk of your delivery being lost in transit . Middlesex University will not be accepting any deliveries on behalf of students .
 ===
 Q: I havenot received my accommodation details
@@ -251,7 +251,7 @@ Q: What is Middlesex University ?
 A: Middlesex University is a large London university with a long and proud history as a provider of high quality education - our history in higher education dates from 1878 . Middlesex Polytechnic was formed in 1973 and became a university by Royal Assent in 1992 .
 ===
 Q: How is the weather ?
-A: In the summer months , from November to April , the temperature varies from 20°C to 28°C inland , and from 25°C to 36°C on the coast .
+A: In the summer months , from November to April , the temperature varies from 20Â°C to 28Â°C inland , and from 25Â°C to 36Â°C on the coast .
 ===
 Q: location of campus ?
 A: Middlesex University is located at Coastal Road , Uniciti , Flic-en-Flac , Mauritius .
@@ -1544,7 +1544,7 @@ A: `` My name is David '' , Middlesex Chatty answers your question on behalf of 
 Q: What 's your name , Tom ?
 A: Tom 's name is Tom , and my name is Middlesex Chatty .
 Q: What 's your father 's name ?
-A: That 's a secret , hehe …
+A: That 's a secret , hehe Â…
 Q: What 's your mother 's name ?
 A: That 's a secret . : )
 Q: What 's your mother 's maiden name ?
