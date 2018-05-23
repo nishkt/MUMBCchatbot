@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+	<category>
+		<pattern>TUITION</pattern>
+		<template>
+			ALL PRICES ARE SHOWN IN MAURITIAN RUPEES
+
+			LOCAL STUDENTS (* = exceptions)
+			Internatioanl Foundation Program (IFP) - 151,000
+			Undergraduate Programs - 205,000
+			BSc (Hons) Information Technology and Information System or BSc Information Technology - 215,000
+			LLB (Hons) Bachelor of Laws or LLB Law with International Relations - 249,000
+
+			INTERNATIONAL STUDENTS (* = exceptions)
+			Internatioanl Foundation Program (IFP) - 165,000
+			Undergraduate Programs - 215,000
+			BSc (Hons) Information Technology and Information System or BSc Information Technology - 250,000
+			LLB (Hons) Bachelor of Laws or LLB Law with International Relations - 261,000 
+
+			For more information on payment plans, and other information, go to: http://www.middlesex.mu/courses/fees-and-payable-plans/all-students
+		</template>
+	</category>
+
+	<category>
+		<pattern>PAYMENTLOCATION</pattern>
+		<template>
+			You can make the payment at the finance office at Middlesex University, Mauritius. 
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ PAYMENT _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> PAYMENT _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ PAYMENT </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHERE _ PAY _ </pattern>
+		<template>
+			<srai>PAYMENTLOCATION</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>WHERE _ PAY </pattern>
+		<template>
+			<srai>PAYMENTLOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHERE PAY _ </pattern>
+		<template>
+			<srai>PAYMENTLOCATION</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern> _ COST _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> COST _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ COST </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ COSTS _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> COSTS _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ COSTS </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ TUITION _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> TUITION _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ TUITION </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+ 	<category>
+		<pattern> _ FEES _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> FEES _ </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ FEES </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> HOW MUCH _ COST </pattern>
+		<template>
+			<srai>TUITION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MEDICAL</pattern>
+		<template>
+			It is a compulsory requirement to have medical insurance whilst studying at Middlesex University Mauritius Branch Campus, therefore the following insurance has been set up and you are therefore required to pay an Insurance Fee of MUR 7,200 per year.
+
+			For more information please go to: http://www.middlesex.mu/courses/fees-and-payable-plans/compulsory-medical-insurance
+		</template>
+	</category>	
+
+	<category>	
+        <pattern>INSURANCE</pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern> _ INSURANCE _</pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern> _ INSURANCE </pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern> INSURANCE _</pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+ 	<category>	
+        <pattern> _ MEDICAL _</pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern> _ MEDICAL </pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern> MEDICAL _</pattern>
+        <template>
+            <srai>MEDICAL</srai>
+        </template>
+    </category>
+
+	<category>
+		<pattern>DOCUMENT</pattern>
+		<template>
+			Student status letters, bank letter, and diploma/certificate can be requested at the Middlesex University front desk. Collection of the documents can happen urgently (recieve within a day) for 100 Rs for each copy or collection can occur after 3 working days for 50 Rs for each copy. 
+		</template>
+	</category>
+
+	<category>	
+        <pattern>_ DOCUMENTS</pattern>
+        <template>
+            <srai>DOCUMENT</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>_ DOCUMENTS _ </pattern>
+        <template>
+            <srai>DOCUMENT</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>DOCUMENTS _ </pattern>
+        <template>
+            <srai>DOCUMENT</srai>
+        </template>
+    </category>
+
+</aiml>

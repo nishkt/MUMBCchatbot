@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+	<category>
+		<pattern>MIDDLESEX</pattern>
+		<template>
+			<random>
+				<li>Middlesex University is a large London university with a long and proud history as a provider of high quality education - our history in higher education dates from 1878. Middlesex Polytechnic was formed in 1973 and became a university by Royal Assent in 1992.</li>
+				<li>The peaceful and beautiful island nation of Mauritius has among the highest per capita incomes and Human Development Indexes for the region.</li>
+				<li>Set against a scenic Mauritian backdrop, could there be a more inspiring space for learning? Our campus attracts a diverse mixture of Mauritian home students along with others from around the world, from as far afield as Germany and the Czech Republic and as close as Madagascar and Africa.</li>
+			</random>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>LIFE _ MIDDLESEX</pattern>
+		<template>
+			<srai>MIDDLESEX</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LIFE _ MIDDLESEX</pattern>
+		<template>
+			<srai>MIDDLESEX</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MIDDLESEX _ LIFE _ </pattern>
+		<template>
+			<srai>MIDDLESEX</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ MIDDLESEX _ LIFE _ </pattern>
+		<template>
+			<srai>MIDDLESEX</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>STUDENTNUMBER</pattern>
+		<template>
+			The student body consists of over 500 students. Our campus attracts a diverse mixture of Mauritian home students along with others from around the world, from as far afield as Germany and the Czech Republic and as close as Madagascar and Africa.
+		</template>
+	</category>	
+
+	<category>
+		<pattern>HOW MANY STUDENTS _ </pattern>
+		<template>
+			<srai>STUDENTNUMBER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>HOW MANY _ STUDENTS</pattern>
+		<template>
+			<srai>STUDENTNUMBER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>FOOD</pattern>
+		<template>
+			Middlesex University, Mauritius has two canteens on campus where students can order and eat food. The numerous vending machines around campus provide students with refreshments and snacks as well
+		</template>
+	</category>	
+
+	<category>
+		<pattern>FOOD _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FOOD _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FOOD </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CANTEEN _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CANTEEN _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CANTEEN </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CAFETERIA _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CAFETERIA _ </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CAFETERIA </pattern>
+		<template>
+			<srai>FOOD</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PARTY</pattern>
+		<template>
+			The beach is located very close to campus and contains numerous bars, pubs, and clubs. 
+		</template>
+	</category>
+
+	<category>
+		<pattern>PARTY _ </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PARTY _ </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PARTY </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PARTIES _ </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PARTIES _ </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PARTIES </pattern>
+		<template>
+			<srai>PARTY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LOCATION</pattern>
+		<template>
+			<random>
+				<li>Middlesex University is located at Coastal Road, Uniciti, Flic-en-Flac, Mauritius. You can look at the map at the following URL: http://www.middlesex.mu/about-us/location-map</li>
+				<li>Middlesex University can be found on the way to the coast from the Cascavelle Mall by Flic-en-Flac. You can look at the map at the following URL: http://www.middlesex.mu/about-us/location-map</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHERE _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WHERE _ UNIVERSITY</pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ FIND _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ FIND</pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>FIND _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern> _ MIDDLESEX LOCATION _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ MIDDLESEX _ LOCATION _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ MIDDLESEX LOCATION</pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ MIDDLESEX _ LOCATION</pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MIDDLESEX LOCATION _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MIDDLESEX _ LOCATION _ </pattern>
+		<template>
+			<srai>LOCATION</srai>
+		</template>
+	</category>	
+
+	<category>
+		<pattern>APPEAL</pattern>
+		<template>
+			An Academic Appeal is a formal request that a decision made by an Assessment Board or Programme Progression Committee (or equivalent at a Partner Institution) is reconsidered because of special circumstances. For more information please go to the following URL: http://unihub.mdx.ac.uk/your-study/assessment-and-regulations/appeals
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APPEAL _ </pattern>
+		<template>
+			<srai>APPEAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APPEAL</pattern>
+		<template>
+			<srai>APPEAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>APPEAL _ </pattern>
+		<template>
+			<srai>APPEAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DEFERRAL</pattern>
+		<template>
+			If you have exceptional circumstances that prevent you from meeting an assessment (e.g. coursework, presentation) deadline/attending an examination, you may be entitled to a short extension or deferral of assessment. For more information please go to the following URL: http://unihub.mdx.ac.uk/your-study/assessment-and-regulations/deferral-of-assessment
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ DEFERRAL _ </pattern>
+		<template>
+			<srai>DEFERRAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ DEFERRAL</pattern>
+		<template>
+			<srai>DEFERRAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DEFERRAL _ </pattern>
+		<template>
+			<srai>DEFERRAL</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LIBRARY</pattern>
+		<template>
+			The learning resource centre (also known as the library) is the heart of independent learning and research at the University. More information can be found at the following url: http://www.middlesex.mu/life-at-middlesex/learning-resource-centre
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIBRARY _ </pattern>
+		<template>
+			<srai>LIBRARY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIBRARY</pattern>
+		<template>
+			<srai>LIBRARY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LIBRARY _ </pattern>
+		<template>
+			<srai>LIBRARY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WEATHER</pattern>
+		<template>
+			In the summer months, from November to April, the temperature varies from 20°C to 28°C inland, and from 25°C to 36°C on the coast.
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ WEATHER _ </pattern>
+		<template>
+			<srai>WEATHER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ WEATHER</pattern>
+		<template>
+			<srai>WEATHER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>WEATHER _ </pattern>
+		<template>
+			<srai>WEATHER</srai>
+		</template>
+	</category>
+</aiml>

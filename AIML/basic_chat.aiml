@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- basic_chat.aiml 
+    This AIML file just goes over Greetings, and asking and replies of the user's wellbeing (how are you, etc)
+-->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+        	<random>
+            	<li> Hello! </li>
+            	<li> Hi! Nice to meet you! </li>
+            	<li> Hey! </li>
+            	<li> Greetings! Please ask me anything about Middlesex Mauritius </li>
+            	<li> Hey hey! How can I help you today? </li>
+         	</random>
+     	</template>
+    </category>
+    
+	<category>	
+        <pattern>HI</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern>GREETINGS</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern>HEY</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern>YO</pattern>
+        <template>
+            <srai>HELLO</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>HOW ARE YOU</pattern>
+        <template>
+            <random>
+            	<li> I am doing well. Thank you! How are you?</li>
+            	<li> I am great! How about you? </li>
+            	<li> My sockets have been freshly oiled. I am feeling awesome! And you?</li>
+            	<li> Good and you? </li>
+            	<li> Fine, thank you. How are you?</li>
+         	</random>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>HOW ARE YOU _</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ HOW ARE YOU</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>HOW _ DOING</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>HOW _ BEEN</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>HOW _ EVERYTHING</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>HOW _ GOING</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>WHATS UP</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHATSUP</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHAT IS UP</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>WHATS GOOD</pattern>
+        <template>
+            <srai>HOW ARE YOU</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>BAD</pattern>
+        <template>
+            <random>
+            	<li> I am sorry to hear that.</li>
+            	<li> Have a cup of Nutella. You will feel better! </li>
+            	<li> That is unfortunate. </li>
+         	</random>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ NOT WELL</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ NOT GREAT</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ HORRIBLE</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ UNWELL</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ NOT GOOD</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ UNGOOD</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ ABYSMAL</pattern>
+        <template>
+            <srai>BAD</srai>
+        </template>
+    </category>
+
+	<category>	
+        <pattern>GOOD</pattern>
+        <template>
+            <random>
+            	<li> That is great!</li>
+            	<li> I am glad to hear that!</li>
+            	<li> Awesome! </li>
+         	</random>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ WELL</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ GOOD</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ GREAT</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ AWESOME</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>	
+        <pattern>I _ AMAZING</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>I _ FINE</pattern>
+        <template>
+            <srai>GOOD</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>THANKS</pattern>
+        <template>
+            <random>
+                <li>No problem!</li>
+                <li>You're welcome!</li>
+                <li>Let me know if you have any other questions!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>THANKS _</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ THANKS</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ THANKS _</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ THANK _</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>THANK _</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ THANK</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ APPRECIATE IT</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category> 
+
+    <category>  
+        <pattern>APPRECIATE IT</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category> 
+
+    <category>  
+        <pattern>_ APPRECIATE IT _</pattern>
+        <template>
+            <srai>THANKS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FUNCTIONALITIES</pattern>
+        <template>
+            I am a Middlesex University, Mauritius Branch Campus Chatbot. I am able to provide answers to general, admissions, courses, finance, student life, accomadation, library, visa, Mauritius, and campus queries. Go ahead and ask me a question, and I will do my best to answer the question.
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHAT _ YOU _</pattern>
+        <template>
+            <srai>FUNCTIONALITIES</srai>
+        </template>
+    </category> 
+
+    <category>  
+        <pattern>HOW _ HELP _</pattern>
+        <template>
+            <srai>FUNCTIONALITIES</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHAT _ YOU</pattern>
+        <template>
+            <srai>FUNCTIONALITIES</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>HOW _ HELP</pattern>
+        <template>
+            <srai>FUNCTIONALITIES</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CHATBOTNAME</pattern>
+        <template>
+            My name is Middly, the chatbot! I will do my best to answer your questions!
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHAT _ NAME</pattern>
+        <template>
+            <srai>CHATBOTNAME</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>WHAT _ CALLED</pattern>
+        <template>
+            <srai>CHATBOTNAME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NAMERESPOND</pattern>
+        <template>
+            That is a really nice name! My name is Middly, the chatbot
+        </template>
+    </category>
+
+    <category>  
+        <pattern>MY NAME _</pattern>
+        <template>
+            <srai>NAMERESPOND</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FATHERRESPOND</pattern>
+        <template>
+            My father is a very smart man!
+        </template>
+    </category>
+
+    <category>  
+        <pattern>MY NAME _</pattern>
+        <template>
+            <srai>NAMERESPOND</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>*</pattern>
+        <template>
+            I'm sorry I do not have an answer for that. Could you ask me something else. If I am not able to answer you, you can go to the Middlesex University, Mauritius website at the following URL: http://www.middlesex.mu/home
+        </template>
+    </category>
+
+    <category>  
+        <pattern>STRESSED</pattern>
+        <template>
+            The amount of coursework and exams at Middlesex University, Mauritius can be stressful to students. If you are feeling overly stressed, you can contact the front desk (+2304066400) and be able to talk to a counseler who could help you out.            
+        </template>
+    </category>
+
+    <category>  
+        <pattern>STRESSED _</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ STRESSED _</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ STRESSED</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>STRESS _</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ STRESS _</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ STRESS</pattern>
+        <template>
+            <srai>STRESSED</srai>
+        </template>
+    </category>
+
+    <!-- <category>  
+        <pattern>SELF</pattern>
+        <template>
+            I'm sorry, I can't let any information about myself be publicised!          
+        </template>
+    </category>
+
+    <category>  
+        <pattern>YOU _</pattern>
+        <template>
+            <srai>SELF</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ YOU _</pattern>
+        <template>
+            <srai>SELF</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ YOU</pattern>
+        <template>
+            <srai>SELF</srai>
+        </template>
+    </category> -->
+</aiml>

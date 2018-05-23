@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+	<category>
+		<pattern>PROGRAMS</pattern>
+		<template>
+			Middlesex University, Mauritius offers many programs. The Bachelor programs consist of BSc, and BA in Information Technology, Computer Science, Psychology, Business Management, Accounting and Finance, Public Relations, Media, Advertising, LLB Bachelor of Law, and LLB with International Relations. 
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSE _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COURSE _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSE</pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSES _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COURSES _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSES</pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROGRAMS _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROGRAMS _ </pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROGRAMS</pattern>
+		<template>
+			<srai>PROGRAMS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>INFORMATION TECHNOLOGY</pattern>
+		<template>
+			At Middlesex University Mauritius, there are two Bachelor programs for Information Technology. The first is BSc (Hons) Information Technology, and the second is BSc (Hons) Information Technology and Business Information Systems (direct entry to year 3). For more information please go to the following url: http://www.middlesex.mu/courses/undergraduate/bsc-honours-information-technology-year-1
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ INFORMATION TECHNOLOGY _ </pattern>
+		<template>
+			<srai>INFORMATION TECHNOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>INFORMATION TECHNOLOGY _ </pattern>
+		<template>
+			<srai>INFORMATION TECHNOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ INFORMATION TECHNOLOGY</pattern>
+		<template>
+			<srai>INFORMATION TECHNOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMPUTER SCIENCE</pattern>
+		<template>
+			Middlesex University, Mauritius offers a BSc (Hons) Computer Science (Systems Engineering) degree. For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/bsc-honours-computer-science-systems-engineering
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COMPUTER SCIENCE _ </pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COMPUTER SCIENCE _ </pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COMPUTER SCIENCE</pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CS _ </pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>CS _ </pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ CS</pattern>
+		<template>
+			<srai>COMPUTER SCIENCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LAW</pattern>
+		<template>
+			Middlesex University, Mauritius offers two law degrees. This includes LLB Law with International Relations and Bachelor of Laws, LLB (Hons). For more inforrmation please go to the following URL: http://www.middlesex.mu/courses/undergraduate/llb-honours-bachelor-of-laws
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LAW _ </pattern>
+		<template>
+			<srai>LAW</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LAW _ </pattern>
+		<template>
+			<srai>LAW</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LAW</pattern>
+		<template>
+			<srai>LAW</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PSYCHOLOGY</pattern>
+		<template>
+			Middlesex University, Mauritius offers a BSc (Hons) Psychology with Counselling Skills degree. For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/bsc-honours-psychology-with-counselling-skills
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PSYCHOLOGY _ </pattern>
+		<template>
+			<srai>PSYCHOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PSYCHOLOGY _ </pattern>
+		<template>
+			<srai>PSYCHOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PSYCHOLOGY</pattern>
+		<template>
+			<srai>PSYCHOLOGY</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>INTERNATIONAL FOUNDATION PROGRAM</pattern>
+		<template>
+			The foundation programme gives you the best possible chance of entry to a degree course at Middlesex University. We teach in small, specialised classes and provide dedicated individual support to prepare you for undergraduate-level study. For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/international-foundation-programme
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ INTERNATIONAL FOUNDATION PROGRAM _ </pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>INTERNATIONAL FOUNDATION PROGRAM _ </pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ INTERNATIONAL FOUNDATION PROGRAM</pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ IFP _ </pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>IFP _ </pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ IFP</pattern>
+		<template>
+			<srai>INTERNATIONAL FOUNDATION PROGRAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>BUSINESS MANAGEMENT</pattern>
+		<template>
+			Middlesex University, Mauritius offers 4 different Business Management Degrees. There is the BA (Hons) Business Management, BA (Hons) Business Management (Finance), BA (Hons) Business Management (Human Resource Management), BA (Hons) Business Management (Marketing). For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/business-management-ba-hons
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ BUSINESS MANAGEMENT _ </pattern>
+		<template>
+			<srai>BUSINESS MANAGEMENT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>BUSINESS MANAGEMENT _ </pattern>
+		<template>
+			<srai>BUSINESS MANAGEMENT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ BUSINESS MANAGEMENT</pattern>
+		<template>
+			<srai>BUSINESS MANAGEMENT</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACCOUNTINGANDFINANCE</pattern>
+		<template>
+			Middlesex University, Mauritius offers a BA (Hons) Accounting and Finance Degree. For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/ba-honours-accounting-and-finance
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FINANCE _ </pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>FINANCE _ </pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FINANCE</pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ACCOUNTING _ </pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACCOUNTING _ </pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ACCOUNTING</pattern>
+		<template>
+			<srai>ACCOUNTINGANDFINANCE</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ADVERTISINGPUBLICRELATIONSANDMEDIA</pattern>
+		<template>
+			Middlesex University, Mauritius offers a BA (Hons) Advertising, Public Relations, and Media degree. For more information, please go to the following URL: http://www.middlesex.mu/courses/undergraduate/ba-honours-advertising-public-relations-and-media
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ADVERTISING _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ADVERTISING _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ADVERTISING</pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PUBLIC RELATIONS _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PUBLIC RELATIONS _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PUBLIC RELATIONS</pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ MEDIA _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>MEDIA _ </pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ MEDIA</pattern>
+		<template>
+			<srai>ADVERTISINGPUBLICRELATIONSANDMEDIA</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COURSEWORK</pattern>
+		<template>
+			Coursework can differ based on the module you are taking. Most modules will require that your complete an amount of coursework as part of your assessment.  Coursework can include written work, such as essays, exercises, laboratory logbooks, projects, dissertations, portfolios of written work etc, however it can also include non-written work such as performances, presentations, exhibitions etc. For more information, please go to the following URL: http://unihub.mdx.ac.uk/your-study/assessment-and-regulations/coursework 
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSEWORK _ </pattern>
+		<template>
+			<srai>COURSEWORK</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>COURSEWORK _ </pattern>
+		<template>
+			<srai>COURSEWORK</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ COURSEWORK</pattern>
+		<template>
+			<srai>COURSEWORK</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>RESULTS</pattern>
+		<template>
+			 Module Results are published on MyUnihub on the date listed  in your academic calendar. For information on grading scales and any other additional information, please go to the following URL: http://unihub.mdx.ac.uk/your-study/assessment-and-regulations/results-and-grading-scales
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ RESULTS _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>RESULTS _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ RESULTS</pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADES _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>GRADES _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADES</pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADE _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>GRADE _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADE</pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADING _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>GRADING _ </pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ GRADING</pattern>
+		<template>
+			<srai>RESULTS</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>EXAM</pattern>
+		<template>
+			 Exams are usually held in the end of the academic year in April-May. Depending on the module, there may or may not be an exam for the mentioned module. For information on the exam regulations, please go to the following URL: http://unihub.mdx.ac.uk/your-study/exams/exam-regulations
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ EXAM _ </pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>EXAM _</pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ EXAM </pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ EXAMS _ </pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>EXAMS _ </pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ EXAMS </pattern>
+		<template>
+			<srai>EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROHIBITED ELECTRONICS EXAM</pattern>
+		<template>
+			 It is forbidden to use any electronic device during the exam. All mobile devices must be switched off and placed under your chair in the exam room. Students will be asked to place their Smart Watches on the exam desk. Dictionaries or calculators are prohibited in the exam room unless it is specified on the front of the exam paper. Only non-programmable calculators are allowed to be used.
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ELECTRONICS _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED ELECTRONICS EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ELECTRONICS _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED ELECTRONICS EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ ELECTRONICS _ EXAM</pattern>
+		<template>
+			<srai>PROHIBITED ELECTRONICS EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROHIBITED FOOD EXAM</pattern>
+		<template>
+			 You may only take bottles of still water. The label must be removed. No food is allowed to be eaten during the exam.  If you are a diabetic or there are medical reasons why you need to eat during the exam please let the invigilator know before the exam starts.
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FOOD _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>FOOD _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ FOOD _ EXAM</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ DRINKS _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>DRINKS _ EXAM _</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ DRINKS _ EXAM</pattern>
+		<template>
+			<srai>PROHIBITED FOOD EXAM</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LECTURER</pattern>
+		<template>
+			We employ more than 1,700 staff, including many notable leaders in their academic field, as well as active practitioners and committed researchers. You can find acadmeic staff profiles at http://www.middlesex.mu/about-us/academic-and-research-staff
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LECTURER _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LECTURER _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LECTURER</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LECTURERS</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LECTURERS _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LECTURERS _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ LECTURERS</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>STAFF</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ STAFF _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>STAFF _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ STAFF</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROFESSOR</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROFESSOR _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROFESSOR _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROFESSOR</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROFESSORS</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROFESSORS _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>PROFESSORS _ </pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>_ PROFESSORS</pattern>
+		<template>
+			<srai>LECTURER</srai>
+		</template>
+	</category>
+</aiml>

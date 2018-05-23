@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+  <category>
+    <pattern>ASK DEGREE TYPE</pattern>
+    <template>
+        <random>
+            <li>First of all, you would need all your transcripts, identification information, certificates for applying. Either you want to be a Master's or Bachelor's student, or a transfer or fresh graduate, the online application form will have to be filled at http://www.middlesex.mu/courses/application-form</li>
+            <li>An online application form will have to be filled at http://www.middlesex.mu/courses/application-form</li>
+        </random>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>ADMISSION</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ ADMISSION</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>ADMISSION _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ ADMISSION _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>_ APPLY</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>APPLY _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>_ APPLY _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ APPLYING</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>APPLYING _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ APPLYING _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>ADMISSIONS</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ ADMISSIONS</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>ADMISSIONS _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>_ ADMISSIONS _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>_ JOIN MIDDLESEX</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>JOIN MIDDLESEX _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>_ JOIN MIDDLESEX _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>APPLICATION</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>  
+
+  <category>	
+    <pattern>_ APPLICATION</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>	
+    <pattern>APPLICATION _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+    <category>	
+        <pattern>_ APPLICATION _</pattern>
+        <template>
+            <srai>ASK DEGREE TYPE</srai>
+        </template>
+    </category>
+
+  <category>  
+    <pattern>_ REQUIREMENT</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>REQUIREMENT _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+    <category>  
+        <pattern>_ REQUIREMENT _</pattern>
+        <template>
+            <srai>ASK DEGREE TYPE</srai>
+        </template>
+    </category>
+
+  <category>  
+    <pattern>_ REQUIREMENTS</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+  <category>    
+    <pattern>REQUIREMENTS _</pattern>
+    <template>
+      <srai>ASK DEGREE TYPE</srai>
+    </template>
+  </category>
+
+    <category>  
+        <pattern>_ REQUIREMENTS _</pattern>
+        <template>
+            <srai>ASK DEGREE TYPE</srai>
+        </template>
+    </category>
+
+  <category>
+    <pattern>TRANSCRIPTS</pattern>
+    <template>
+      Transcripts are a record of your acadmeic accomplishments in your previous educational institutions. These include transcripts from you High School, Previous Universities, or Colleges. These transcript documents are necessary when applying online. 
+    </template>
+  </category>
+
+  <category>  
+        <pattern>TRANSCRIPT</pattern>
+        <template>
+            <srai>TRANSCRIPTS</srai>
+        </template>
+    </category>
+
+  <category>  
+        <pattern>_ TRANSCRIPTS</pattern>
+        <template>
+            <srai>TRANSCRIPTS</srai>
+        </template>
+    </category>
+
+  <category>  
+        <pattern>TRANSCRIPTS _</pattern>
+        <template>
+            <srai>TRANSCRIPTS</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ TRANSCRIPTS _</pattern>
+        <template>
+            <srai>TRANSCRIPTS</srai>
+        </template>
+    </category>
+
+    <category>
+      <pattern>IDENTIFICATION</pattern>
+      <template>
+        Identication includes documents that prove your identity. If you are not a Mauritian Citizen, the front and back pages of your PASSPORT would need to be scanned and uploaded on the online application. If you are a Mauritian Citizen, your National Identifiation or Passport would need to be uploaded on the online application. 
+      </template>
+    </category>
+
+    <category>  
+        <pattern>_ IDENTIFICATION</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>IDENTIFICATION _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ IDENTIFICATION _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ ID</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>ID _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ ID _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ IDENTITY</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>IDENTITY _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ IDENTITY _</pattern>
+        <template>
+            <srai>IDENTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>
+      <pattern>CERTIFICATION</pattern>
+      <template>
+        Certification for external exams and extra-curricular activities will be needed for applications. External exams include the A-LEVELS, O-LEVELS, FRENCH BACCALAUREATE, IB, IGCSE, SAT, etc. The copies of these certification would have to be uploaded on the online application form. 
+      </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATION</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CERTIFICATION _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATION _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATIONS</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CERTIFICATIONS _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATIONS _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATE</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CERTIFICATE _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATE _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATES</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CERTIFICATES _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CERTIFICATES _</pattern>
+        <template>
+            <srai>CERTIFICATION</srai>
+        </template>
+    </category>
+
+    <category>
+      <pattern>CHANGE</pattern>
+      <template>
+        In the case of changing your module, mode of study, or programme, a change form will have to be collected and filled out at the student office. This form will also have to be approved and signed by the Programme Leader, Achievemnt Officer, or Placement Officer.  
+      </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE PROGRAMME</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE PROGRAMME _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE PROGRAMME _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ PROGRAMME _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE _ PROGRAMME _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ PROGRAMME</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE MODE OF STUDY</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE MODE OF STUDY _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE MODE OF STUDY _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ MODE OF STUDY _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE _ MODE OF STUDY _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ MODE OF STUDY</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE MODULE</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE MODULE _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE MODULE _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ MODULE _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>CHANGE _ MODULE _</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ CHANGE _ MODULE</pattern>
+        <template>
+            <srai>CHANGE</srai>
+        </template>
+    </category>
+
+    <category>
+      <pattern>DEADLINE</pattern>
+      <template>
+        Application deadlines vary if you are a October intake student, or a January intake student. October intake students must apply by the first week of August, while the January intake students must apply by November. for more questions, please contact +2304036400.  
+      </template>
+    </category>
+
+    <category>  
+        <pattern>_ DEADLINE</pattern>
+        <template>
+            <srai>DEADLINE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>DEADLINE _</pattern>
+        <template>
+            <srai>DEADLINE</srai>
+        </template>
+    </category>
+
+    <category>  
+        <pattern>_ DEADLINE _</pattern>
+        <template>
+            <srai>DEADLINE</srai>
+        </template>
+    </category>
+
+</aiml>	

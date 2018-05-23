@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+
+	<category>
+		<pattern>ACCOMMODATION</pattern>
+		<template>
+			<random>
+				<li>Student accommodation is availble next to campus through the Student Life Residences. You can visit their website at the following URL: http://www.studentlife.mu/</li>
+				<li>Student accomodation is available next to campus at the Student Life Residences. Students are more than welcome to live away from campus, but seeking and leasing will have to be handled by the students themselves.</li>
+				<li>Accommodation prices outside of the Student Life Residence can vary according to the area, and size of the accommodation. Student Life Residence cost from 7500 to 11,000 Rs based on your stay duration (10 months or 12 months) and the type of room you decide on. For more information on Student Life Residence cost, please go to the following URL: http://www.studentlife.mu/prices.html</li>
+			</random>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STUDENT LIFE RESIDENCE _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STUDENT LIFE RESIDENCE</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> STUDENT LIFE RESIDENCE _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STUDENT LIFE RESIDENCES _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STUDENT LIFE RESIDENCES</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> STUDENT LIFE RESIDENCES _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>		
+
+	<category>
+		<pattern> WHERE _ ACCOMMODATION _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> WHERE _ ACCOMMODATION</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ WHERE _ ACCOMMODATION _ </pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ WHERE _ ACCOMMODATION</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ ACCOMODATION _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>ACCOMODATION _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ ACCOMODATION</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APARTMENT _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>APARTMENT _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APARTMENT</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APARTMENTS _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>APARTMENTS _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ APARTMENTS</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIVE _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LIVE _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIVE</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIVING _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>LIVING _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ LIVING</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STAY _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern>STAY _</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+
+	<category>
+		<pattern> _ STAY</pattern>
+		<template>
+			<srai>ACCOMMODATION</srai>
+		</template>
+	</category>
+</aiml>
