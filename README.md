@@ -12,3 +12,6 @@ What you will need:
 
 1. Tensorflow
 2. Python 3+
+
+Link to paper -> https://eprints.mdx.ac.uk/26600/1/ELECOM_2018_paper_12_final.pdf
+Link to published Springer publishing page -> https://link.springer.com/chapter/10.1007/978-3-030-18240-3_30
